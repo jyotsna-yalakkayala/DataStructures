@@ -136,17 +136,5 @@ namespace DataStructures.Part_1.Arrays
             count++;
             size++;
         }
-
-
-        public int MaxProfit(int[] prices) {
-            //[7,1,5,3,6,4]
-
-            int bestDayToBuyStock = prices[0];
-            for (int i = 1; i < prices.Length; i++) {
-                if (prices[i] < bestDayToBuyStock)
-                    bestDayToBuyStock = prices[i];
-            }
-            
-        }
     }
 }

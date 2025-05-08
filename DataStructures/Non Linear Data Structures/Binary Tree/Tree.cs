@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DataStructures.Part_2.Binary_Tree
+﻿namespace DataStructures.Part_2.Binary_Tree
 {
     public class Tree
     {
